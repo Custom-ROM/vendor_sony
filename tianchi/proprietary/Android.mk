@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq (tianchi, $(TARGET_DEVICE))
+ifeq ($(filter-out tianchi tianchi_dsds,$(TARGET_DEVICE)),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := adsp_b00
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -179,6 +179,260 @@ LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
+ifeq (tianchi_dsds, $(TARGET_DEVICE))
+include $(CLEAR_VARS)
+LOCAL_MODULE := mba_b00
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/mba.b00
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := mba
+LOCAL_MODULE_SUFFIX := .b00
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := mba_mdt
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/mba.mdt
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := mba
+LOCAL_MODULE_SUFFIX := .mdt
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b00
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b00
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b00
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b01
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b01
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b01
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b02
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b02
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b02
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b03
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b03
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b03
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b04
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b04
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b04
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b05
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b05
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b05
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b06
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b06
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b06
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b09
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b09
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b09
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b16
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b16
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b16
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b17
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b17
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b17
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b18
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b18
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b18
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b19
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b19
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b19
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b20
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b20
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b20
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b21
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b21
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b21
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b22
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b22
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b22
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b23
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b23
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b23
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b24
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b24
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b24
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b27
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b27
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b27
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b28
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b28
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b28
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_b29
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.b29
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .b29
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := modem_mdt
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/ds/modem.mdt
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := modem
+LOCAL_MODULE_SUFFIX := .mdt
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+else
 include $(CLEAR_VARS)
 LOCAL_MODULE := mba_b00
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -200,6 +454,7 @@ LOCAL_MODULE_SUFFIX := .mdt
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := wcnss_b00
