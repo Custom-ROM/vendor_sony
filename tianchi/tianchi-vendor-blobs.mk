@@ -38,8 +38,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b03:system/etc/firmware/ds/modem.b03 \
     vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b04:system/etc/firmware/ds/modem.b04 \
     vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b05:system/etc/firmware/ds/modem.b05 \
-    vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b08:system/etc/firmware/ds/modem.b06 \
-    vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b10:system/etc/firmware/ds/modem.b09 \
+    vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b06:system/etc/firmware/ds/modem.b06 \
+    vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b09:system/etc/firmware/ds/modem.b09 \
     vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b16:system/etc/firmware/ds/modem.b16 \
     vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b17:system/etc/firmware/ds/modem.b17 \
     vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b18:system/etc/firmware/ds/modem.b18 \
@@ -47,11 +47,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b20:system/etc/firmware/ds/modem.b20 \
     vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b21:system/etc/firmware/ds/modem.b21 \
     vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b22:system/etc/firmware/ds/modem.b22 \
-    vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b25:system/etc/firmware/ds/modem.b23 \
-    vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b26:system/etc/firmware/ds/modem.b24 \
+    vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b23:system/etc/firmware/ds/modem.b23 \
+    vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b24:system/etc/firmware/ds/modem.b24 \
     vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b27:system/etc/firmware/ds/modem.b27 \
-    vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b26:system/etc/firmware/ds/modem.b28 \
-    vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b27:system/etc/firmware/ds/modem.b29 \
+    vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b28:system/etc/firmware/ds/modem.b28 \
+    vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.b29:system/etc/firmware/ds/modem.b29 \
     vendor/sony/tianchi/proprietary/etc/firmware/ds/modem.mdt:system/etc/firmware/ds/modem.mdt \
     vendor/sony/tianchi/proprietary/etc/firmware/ss/mba.b00:system/etc/firmware/ss/mba.b00 \
     vendor/sony/tianchi/proprietary/etc/firmware/ss/mba.mdt:system/etc/firmware/ss/mba.mdt \
