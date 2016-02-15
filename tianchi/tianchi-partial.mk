@@ -30,6 +30,27 @@ PRODUCT_PACKAGES += \
 	cyttsp4_fw \
 	mba_b00 \
 	mba_mdt \
+	modem_b00 \
+        modem_b01 \
+        modem_b02 \
+        modem_b03 \
+        modem_b04 \
+        modem_b05 \
+        modem_b06 \
+        modem_b09 \
+        modem_b16 \
+        modem_b17 \
+        modem_b18 \
+        modem_b19 \
+        modem_b20 \
+        modem_b21 \
+        modem_b22 \
+        modem_b23 \
+        modem_b24 \
+        modem_b27 \
+        modem_b28 \
+        modem_b29 \
+        modem_mdt \
 	wcnss_b00 \
 	wcnss_b01 \
 	wcnss_b02 \
